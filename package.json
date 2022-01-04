@@ -1,0 +1,30 @@
+{
+  "name": "rescript-snowpack-tailwind-starter",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "re:build": "rescript",
+    "clean": "rescript clean -with-deps",
+    "start": "rescript build -w",
+    "server": "snowpack dev",
+    "build": "snowpack build"
+  },
+  "keywords": [
+    "rescript"
+  ],
+  "author": "vamsi",
+  "license": "ISC",
+  "devDependencies": {
+    "@snowpack/plugin-postcss": "^1.4.3",
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.3.11",
+    "rescript": "^9.1.4",
+    "snowpack": "^3.8.8",
+    "tailwindcss": "^2.2.19"
+  },
+  "dependencies": {
+    "@rescript/react": "^0.10.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
